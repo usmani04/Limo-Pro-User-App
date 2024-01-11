@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>CFBundleDevelopmentRegion</key>
+    <string>$(DEVELOPMENT_LANGUAGE)</string>
+    <key>CFBundleDisplayName</key>
+    <string>Limo Services</string>
+    <key>CFBundleExecutable</key>
+    <string>$(EXECUTABLE_NAME)</string>
+    <key>CFBundleIdentifier</key>
+    <string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+    <key>CFBundleInfoDictionaryVersion</key>
+    <string>6.0</string>
+    <key>CFBundleName</key>
+    <string>limopro</string>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>CFBundleShortVersionString</key>
+    <string>$(FLUTTER_BUILD_NAME)</string>
+    <key>CFBundleSignature</key>
+    <string>????</string>
+    <key>CFBundleVersion</key>
+    <string>$(FLUTTER_BUILD_NUMBER)</string>
+    <key>LSRequiresIPhoneOS</key>
+    <true/>
+    <key>UILaunchStoryboardName</key>
+    <string>LaunchScreen</string>
+    <key>UIMainStoryboardFile</key>
+    <string>Main</string>
+    <key>UISupportedInterfaceOrientations</key>
+    <array>
+        <string>UIInterfaceOrientationPortrait</string>
+        <string>UIInterfaceOrientationLandscapeLeft</string>
+        <string>UIInterfaceOrientationLandscapeRight</string>
+    </array>
+    <key>UISupportedInterfaceOrientations~ipad</key>
+    <array>
+        <string>UIInterfaceOrientationPortrait</string>
+        <string>UIInterfaceOrientationPortraitUpsideDown</string>
+        <string>UIInterfaceOrientationLandscapeLeft</string>
+        <string>UIInterfaceOrientationLandscapeRight</string>
+    </array>
+    <key>UIViewControllerBasedStatusBarAppearance</key>
+    <false/>
+    <key>CADisableMinimumFrameDurationOnPhone</key>
+    <true/>
+    <key>UIApplicationSupportsIndirectInputEvents</key>
+    <true/>
+
+    <!-- Add permissions and descriptions for location -->
+    <key>NSLocationWhenInUseUsageDescription</key>
+    <string>We need your location for better user experience</string>
+    <key>NSLocationAlwaysUsageDescription</key>
+    <string>We need your location for better user experience</string>
+
+    <!-- Add internet permission -->
+    <key>NSAppTransportSecurity</key>
+    <dict>
+        <key>NSAllowsArbitraryLoads</key>
+        <true/>
+    </dict>
+
+    <!-- Add call phone permission -->
+    <key>NSAppleMusicUsageDescription</key>
+    <string>We need your permission to make phone calls</string>
+
+    <!-- Add vibrate permission -->
+    <key>NSMicrophoneUsageDescription</key>
+    <string>We need your permission to vibrate the device</string>
+
+    <!-- Add packages to be queried -->
+    <key>LSApplicationQueriesSchemes</key>
+    <array>
+        <string>com.google.android.apps.maps</string>
+        <string>com.google.android.gms</string>
+        <string>com.android.vending</string>
+        <string>com.google.android.gms.permission.AD_ID</string>
+    </array>
+
+    <!-- Add intent filters for viewing -->
+    <key>LSApplicationQueriesSchemes</key>
+    <array>
+        <string>https</string>
+        <string>sms</string>
+        <string>tel</string>
+    </array>
+
+    <!-- Add your API key -->
+    <key>GOOGLE_MAPS_API_KEY</key>
+    <string>AIzaSyCDRUUy5StFdFvvlawFOtYI1AHos1eRTvM</string>
+
+    <!-- Your other existing configurations -->
+
+</dict>
+</plist>
